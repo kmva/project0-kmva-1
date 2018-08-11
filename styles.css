@@ -19,14 +19,6 @@ ul {
   align-self: center;
 }
 
-header {
-  background: #0770E4;
-  max-width: 800px;
-  margin: 0 auto;
-  height: 90px;
-  color: #FFF;
-}
-
 h1.top {
   background: #0770E4;
   color: #FFF;
