@@ -6,6 +6,7 @@ html, body {
   background-color: #eee;
   margin: 0;
   padding: 0;
+  font-family: sans-serif, "Arial";
 }
 
 ul {
@@ -18,6 +19,27 @@ ul {
   align-self: center;
 }
 
+header {
+  background: #0770E4;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 90px;
+  color: #FFF;
+}
+
+h1.top {
+  background: #0770E4;
+  color: #FFF;
+  width: 107%;
+  height: 110px;
+  padding: 35px 0;
+  text-align: center;
+  box-shadow: 0px 8px 9px -1px #031C3D;
+  margin-top: -10px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
 .flow-right {
   display: flex;
   justify-content: space-around;
@@ -26,30 +48,46 @@ ul {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
   flex-direction: column;
   background-color: white;
   height: 100vh;
 }
 
+.controls {
+  margin-top: 15px;
+}
+
 .title, .controls, .button {
   flex: none;
+  margin-bottom: 30px;
 }
 
 .button {
   padding: 10px 20px;
+  background: #0770E4;
+  color: #FFF;
+  border: none;
+  box-shadow: 0px 3px 12px 0px rgba(3,28,61,0.53)
+
+}
+
+.button:hover{
+  
+  box-shadow: 0px 1px 11px 3px #031C3D;
 }
 
 .todo-list {
   flex: 1 1 0;
-  margin-top: 20px;
   padding: 20px;
   overflow-y: auto;
 }
 
 .todo-delete {
   margin: 10px;
+  background: #0770E4;
+  color: #FFF;
 }
 
 .todo-checkbox {
